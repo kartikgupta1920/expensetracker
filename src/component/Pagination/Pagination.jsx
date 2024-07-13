@@ -1,5 +1,5 @@
 import styles from './Pagination.module.css';
-import { IoIoArrowRoundBack , IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundBack , IoIosArrowRoundForward } from "react-icons/io";
 
 function Pagination({updatePage, currentPage, totalPages}) {
     
@@ -18,7 +18,7 @@ function Pagination({updatePage, currentPage, totalPages}) {
     return (
         <div className={styles.paginationWrapper}>
             <button onClick={handlePrev} disabled={currentPage == 1}>
-                <IoIoArrowRoundBack/>
+                <IoIosArrowRoundBack/>
             </button>
 
             <p>{currentPage}</p>

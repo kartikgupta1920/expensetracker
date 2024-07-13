@@ -1,5 +1,5 @@
 import styles from "./TransactionCard.module.css";
-import { IoMdCloseCircularOutline } from "react-icon/io";
+import { IoMdCloseCircleOutline } from "react-icons/io";
 import { PiPizza, PiGift } from "react-icons/pi";
 import { BsSuitcase2 } from "react-icons/bs";
 import { MdOutlineModeEdit } from "react-icons/md";
@@ -23,7 +23,7 @@ function TransactionCard({ details, handleDelete, handleEdit }) {
         <p className={styles.cardPrice}>{`₹${details.price}`}</p>
         <div className={styles.cardButtonWrapper}>
           <button className={styles.cardDelete} onClick={handleDelete}>
-            <IoMdCloseCircularOutline />
+            <IoMdCloseCircleOutline />
           </button>
           <button className={styles.cardEdit} onClick={handleEdit}>
             <MdOutlineModeEdit />

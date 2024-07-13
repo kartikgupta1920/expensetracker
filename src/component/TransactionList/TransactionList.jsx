@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import TransactionCard from "../component/TransactionCard";
-import styles from "../component/TransactionList.module.css";
-import Modal from "../component/Modal";
-import ExpenseForm from "../component/ExpenseForm";
-import Pagination from "../component/Pagination";
+import TransactionCard from "../TransactionCard/TransactionCard";
+import styles from "../TransactionList/TransactionList.module.css";
+import Modal from "../Modal/Modal";
+import ExpenseForm from "../ExpenseForm/ExpenseForm";
+import Pagination from "../Pagination/Pagination";
 
 function TransactionList({
   transactions,
