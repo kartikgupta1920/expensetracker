@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import  Card  from "../component/Card/Card";
+import Card from "../component/Card/Card";
 import styles from "./Homepage.module.css";
 import TransactionList from "../component/TransactionList/TransactionList";
 import ExpenseForm from "../component/ExpenseForm/ExpenseForm";
